@@ -3,6 +3,7 @@ import V8Video from '../MagboostV8RC/V8Video';
 import styles from './V8.module.scss';
 import vrf1 from '../../public/gif/fonsiz_siklli0000-1000.gif';
 import vrf2 from '../../public/img/Innovation/VRF-2.jpg';
+import Footer from '../Footer/Footer';
 
 const v8 = {
    video: '/video/V8-Main-Video.mp4',
@@ -30,6 +31,7 @@ function V8Magboost() {
       <section className={styles.v8}>
          <V8Video video={v8.video} modelStartText={v8.modelStartText} />
          <V8Main previewTitle={v8.previewTitle} imageTitleBlock={v8.imageTitleBlock} />
+         <Footer />
       </section>
    )
 }

@@ -1,0 +1,45 @@
+.machines {
+   height: 100vh;
+   width: 100%;
+   scroll-snap-align: start;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   &__magboost {
+      width: 40%;
+      height: 40%;
+      position: absolute;
+      left: 30%;
+      top: 35%;
+      transition: 1.5s ease-in-out;
+      filter: blur(1rem)
+   }
+   &__v8 {
+      width: 22%;
+      height: 30%;
+      position: absolute;
+      right: 10%;
+      bottom: 19%;
+      transition: 1.5s ease-in-out;
+   }
+   &__titles {
+      font-size: 6vh;
+      display: flex;
+      position: absolute;
+      left: 43%;
+      top: 0;
+      color: black;
+      margin: 28vh 0 0 0;
+      max-width: 300px;
+      width: 100%;
+      height: 7vh;
+      white-space: nowrap;
+      overflow: hidden;
+   }
+   &__title1 {
+      transition: 1.5s ease-in-out;
+   }
+   &__title2 {
+      transition: 1.5s ease-in-out;
+   }
+}

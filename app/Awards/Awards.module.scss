@@ -1,0 +1,14 @@
+.awards {
+   padding: 200px 40px 50px 40px;
+   background: rgb(254,255,250);
+   &__title {
+      text-align: center;
+      font-size: 40px;
+   }
+   &__iconsBody {
+      margin: 50px 0 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+}

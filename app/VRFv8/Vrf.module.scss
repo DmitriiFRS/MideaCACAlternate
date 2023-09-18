@@ -1,0 +1,71 @@
+.vrf {
+   height: 100vh;
+   width: 100%;
+   position: relative;
+   &__imgContainer {
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+   }
+   &__titleContainer {
+      position: relative;
+      z-index: 1;
+      font-size: 60px;
+      font-weight: 500;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(60px);
+   }
+   &__title {
+      letter-spacing: 5px;
+      text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    animation-name: textColorChange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+   }
+   &__pulseIcon {
+      animation-name: pulsating;
+      animation-iteration-count: infinite;
+      animation-duration: 1.7s;
+   }
+}
+
+@keyframes pulsating {
+   0% {
+      transform: scale(1);
+   }
+   50% {
+      transform: scale(0.8);
+   }
+   100% {
+      transform: scale(1);
+   }
+}
+
+@keyframes textColorChange {
+   0% {
+      color: #fff;
+   }
+   50% {
+      color: #c2c2c2;
+   }
+   100% {
+      color: #fff;
+   }
+}

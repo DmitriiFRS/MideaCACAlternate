@@ -66,7 +66,7 @@ function AsideButton() {
    <button onClick={openSideMenu} className={styles.aside__openBtn}>
       {btnSections.map((el, index) => {
          return (
-            <li style={{opacity: isSidemenuVisible ? 0 : 0.5, transform: isSidemenuVisible ? 'translateX(-80%)' : 'translateX(0%)', transitionDelay: el.transitiodDelay}} 
+            <li style={{opacity: isSidemenuVisible ? 0 : 0.5, transform: isSidemenuVisible ? 'translateX(-900%)' : 'translateX(0%)', transitionDelay: el.transitiodDelay}} 
             onClick={() => changeMenuItem(index)} key={index} className={styles.aside__btnBlock}>
                <div className={styles.aside__iconBody}>
                   <Image src={el.icon} alt='icon' />

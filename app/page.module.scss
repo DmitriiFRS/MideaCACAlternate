@@ -1,6 +1,7 @@
 .scrollWrapper {
    overflow-y: scroll;
    scroll-snap-type: y mandatory;
+   scroll-behavior: smooth;
    height: 100vh;
    width: 100%;
    overflow-x: hidden;

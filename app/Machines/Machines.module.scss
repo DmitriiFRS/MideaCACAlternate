@@ -5,6 +5,9 @@
    position: relative;
    display: flex;
    justify-content: center;
+   &__container {
+      position: relative;
+   }
    &__magboost {
       width: 40%;
       height: 40%;
@@ -41,5 +44,11 @@
    }
    &__title2 {
       transition: 1.5s ease-in-out;
+   }
+   &__trigger {
+      border: 1px solid #000;
+      height: 10px;
+      margin: 99vh 0 0 0;
+      width: 100vw;
    }
 }

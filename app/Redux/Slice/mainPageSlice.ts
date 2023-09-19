@@ -9,7 +9,7 @@ type initialStateType = {
    isReferenceView: boolean
    even: boolean
    odd: boolean
-   wrapperRef: any,
+   wrapperRef: any
    isSidemenuVisible: boolean
 }
 
